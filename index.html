@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h1>Sarthak Bhangade</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+             <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- theme toggle removed: site is fixed to light mode -->
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <!-- local uploaded profile image path -->
+        <img src="images/photo.jpg" class="img-animate float img-tilt blue-shadow" alt="Profile Photo"
+             style="width:400px;height:400px;border-radius:50%;object-fit:cover;margin-bottom:16px;box-shadow:0 8px 40px rgba(0,123,255,0.14);">
+        <h2 style="opacity:0.85; font-weight:500;">Hello, I'm</h2>
+
+        <h1>Sarthak Bhangade</h1>
+
+        <div id="typing" aria-hidden="true"></div>
+
+        <!-- SOCIAL ICONS -->
+        <div class="social-icons" aria-label="social links">
+            <a href="https://www.instagram.com/sarthak.__.55?igsh=dmR4eGx2aXk4YWs5" target="_blank" title="Instagram">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/sarthak-bhangade-55-?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BqGy%2F7X8bQT%2BGHXOMoqRcdQ%3D%3D" target="_blank" title="LinkedIn">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/Sarthak4555" target="_blank" title="GitHub">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub">
+            </a>
+            <a href="https://x.com/SarthakBhangade?t=f0s9lHceZnTPVJqly0cmyA&s=09" target="_blank" title="X / Twitter">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="X">
+            </a>
+            <a href="https://www.facebook.com/share/1CkZVBtQu7/?mibextid=qi2Omg" target="_blank" title="Facebook">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://wa.me/qr/T4DAN3HWPKG4F1" target="_blank" title="WhatsApp">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp">
+            </a>
+            <a href="http://t.me/sarthak4555" target="_blank" title="Telegram">
+                <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg" alt="Telegram">
+            </a>
+        </div>
+
+        <!-- DOWNLOAD CV BUTTON  -->
+        <div class="download-cv-wrap" aria-hidden="false">
+            
+            <a class="download-cv" href="https://drive.google.com/file/d/1lLC3xSC3EdiGzuyEn_Zt6N-pRHuX0RMO/view?usp=drive_link" download="Sarthak_Bhangade_CV.pdf" title="Download CV" aria-label="Download CV">
+                <!-- simple SVG -->
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path d="M5 20h14a1 1 0 0 0 0-2H5a1 1 0 0 0 0 2zm7-18a1 1 0 0 0-1 1v8.59l-2.3-2.3a1 1 0 0 0-1.4 1.42l4 4a1 1 0 0 0 1.4 0l4-4a1 1 0 0 0-1.4-1.42L13 11.59V3a1 1 0 0 0-1-1z"></path>
+                </svg>
+                Download CV
+            </a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" style="text-align:center;">
+        <img src="images/sartha.jpg" class="img-animate float img-tilt blue-shadow" alt="Profile Photo"
+             style="width:350px;height:350px;border-radius:50%;object-fit:cover;margin-bottom:18px;box-shadow:0 8px 30px rgba(0,123,255,0.12);">
+
+        <h1 style="font-size:36px; margin-bottom:12px;">About Me</h1>
+        <p style="max-width:820px;margin:auto;font-size:16.8px;opacity:0.92;line-height:1.6;">
+            I'm <strong>Sarthak Bhangade</strong>, a B.Tech student in Artificial Intelligence and Data Science at Sanjivani University.
+            I’m curious by nature and love exploring how data and logic can be turned into real solutions that make life easier and smarter.
+            I enjoy breaking down complex ideas into simple, clear explanations — whether it’s a tough math concept, a data problem, or even learning a new language. My toolkit includes Python, Java, statistics, and DevOps practices, but what excites me most is connecting technology with people through human-centered design.
+            Beyond academics, I’m passionate about predictive analytics, reasoning, and multilingual communication (currently learning German alongside English and Marathi). I see AI not just as a technical field, but as a way to empower communities and solve everyday challenges.
+        </p>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" style="text-align:center;">
+        <h1 style="font-size:36px; margin-bottom:18px;">Education</h1>
+
+        <div class="edu-wrap" role="list">
+
+            <!-- B.Tech -->
+            <article class="edu-card" role="listitem" aria-labelledby="edu-btech">
+                <img class="thumb" src="images/clg.jpg" alt="Sanjivani University">
+                <h3 id="edu-btech">Bachelor of Technology (B.Tech) in AI & Data Science</h3>
+                <p class="meta">Sanjivani University | 2024 – 2028</p>
+                <p class="desc">
+                    Currently pursuing my degree, focusing on data analytics, machine learning, logic,
+                    and modern software practices.
+                </p>
+            </article>
+
+            <!-- 11th & 12th -->
+            <article class="edu-card" role="listitem" aria-labelledby="edu-junior">
+                <img class="thumb" src="images/college.jpg" alt="Art & Science Junior College (placeholder)">
+                <h3 id="edu-junior">Higher Secondary (11th & 12th)</h3>
+                <p class="meta">Art and Science Junior College, Dhawalpuri | 2022 – 2024</p>
+                <p class="desc">
+                    Built a strong foundation in science and mathematics, preparing for advanced studies in
+                    technology and AI.
+                </p>
+            </article>
+
+            <!-- Schooling -->
+            <article class="edu-card" role="listitem" aria-labelledby="edu-school">
+                <img class="thumb" src="images/school.jpg" alt="Izak English Medium School (placeholder)">
+                <h3 id="edu-school">Schooling (L.K.G – 10th)</h3>
+                <p class="meta">Izak English Medium School</p>
+                <p class="desc">
+                    Completed my early education, where I developed curiosity, discipline, and a love for learning.
+                </p>
+            </article>
+
+        </div>
+    </section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h1>Projects</h1>
+
+    <div class="project-grid" id="project-grid">
+
+        <!-- Project 1 (visible) -->
+        <div class="project-card reveal">
+            <div class="proj-title" style="display:flex;align-items:center;gap:12px;">
+                <span class="proj-icon">⚙️</span>
+                <h2 style="margin:0;"> House Price Prediction – Machine Learning </h2>
+            </div>
+            <h3 class="proj-tech">Using Python, Streamlit</h3>
+
+            <ul class="proj-list">
+                <li>Built an ML model to predict house prices using location, size, bedrooms, and bathrooms.</li>
+                <li>Performed data cleaning, feature engineering, and preprocessing for higher accuracy.</li>
+                <li>Trained and evaluated Scikit-Learn algorithms to choose the best performing model.</li>
+                <li>Automated preprocessing, training, and prediction using modular Python scripts.</li>
+                <li>Visualized model performance using graphs and evaluation metrics.</li>
+            </ul>
+
+            <p class="proj-link">
+               Code of this Project → <a href="https://github.com/Sarthak4555/House-Price-Prediction-">|| See Here ||</a>
+            </p>
+        </div>
+
+        <!-- Project 2 (visible) -->
+        <div class="project-card reveal">
+            <div class="proj-title" style="display:flex;align-items:center;gap:12px;">
+                <span class="proj-icon">💻</span>
+                <h2 style="margin:0;">Personal Website</h2>
+            </div>
+            <h3 class="proj-tech">Using HTML, CSS, JavaScript</h3>
+
+            <ul class="proj-list">
+                <li>Responsive multi-page personal portfolio website.</li>
+                <li>Designed using smooth animations and premium UI.</li>
+                <li>Optimized for speed and SEO.</li>
+                <li>Hosted on GitHub Pages.</li>
+            </ul>
+
+            <p class="proj-link">
+                Website Link → <a href="#">yourgithub.com/website</a>
+            </p>
+        </div>
+
+        <!-- Additional projects (hidden) -->
+        <div class="project-card reveal hidden-project">
+            <div class="proj-title" style="display:flex;align-items:center;gap:12px;">
+                <span class="proj-icon">📝</span>
+                <h2 style="margin:0;">Climartha – Smart Weather Dashboard </h2>
+            </div>
+            <h3 class="proj-tech">Using JavaSwing</h3>
+
+            <ul class="proj-list">
+                <li>Developed a stylish weather dashboard using Java Swing and AWT.</li>
+                <li>Designed interactive weather cards showing temperature, humidity, and conditions.</li>
+                <li>Used event-driven programming and custom rendering for smooth UI.</li>
+                <li>Focused on modular code and clean interface structure.</li>
+            </ul>
+
+            <p class="proj-link">
+               Code of this Project → <a href="https://github.com/Sarthak4555/Climartha-Smart-Weather-Dashboard-using-Java">|| See Here ||</a>
+            </p>
+        </div>
+
+        <div class="project-card reveal hidden-project">
+            <div class="proj-title" style="display:flex;align-items:center;gap:12px;">
+                <span class="proj-icon">🍽️</span>
+                <h2 style="margin:0;">Meal App</h2>
+            </div>
+            <h3 class="proj-tech">Using HTML, CSS, JavaScript</h3>
+
+            <ul class="proj-list">
+                <li>Built a recipe search app with live API integration.</li>
+                <li>Displayed detailed meal instructions, ingredients, and images.</li>
+                <li>Created a clean and responsive UI experience.</li>
+            </ul>
+
+            <p class="proj-link">
+               Code of this Project → <a href="#">|| See Here ||</a>
+            </p>
+        </div>
+
+    </div>
+
+    <!-- show more / less -->
+    <div class="show-more-wrap">
+        <button id="show-more-projects" class="show-more-btn" aria-expanded="false">Show more projects</button>
+    </div>
+</section>
+
+
+
+
+   <!-- CERTIFICATES -->
+<section id="certificates" style="text-align:center;padding:60px 20px;">
+    <h1 style="font-size:36px;margin-bottom:18px;color:var(--text);">Certificates</h1>
+
+    <!-- CATEGORY FILTER -->
+    <div class="cert-controls">
+        <button class="cert-tab active" data-filter="all">All</button>
+        <button class="cert-tab" data-filter="nptel">NPTEL</button>
+        <button class="cert-tab" data-filter="ibm">IBM</button>
+        <button class="cert-tab" data-filter="Great Learning">Great Learning</button>
+        <button class="cert-tab" data-filter="skillup">SkillUp</button>
+    </div>
+
+    <!-- CERTIFICATE GRID -->
+    <div class="cert-grid" id="cert-grid">
+
+        <div class="cert-card" data-category="nptel" data-src="images/NPTEL.jpg">
+            <img src="images/NPTEL.jpg">
+            <h3>Discrete Mathematics</h3>
+            <p>Issued by NPTEL</p>
+        </div>
+
+        <div class="cert-card" data-category="ibm" data-src="images/Data Analysis with python.jpg">
+            <img src="images/Data Analysis with python.jpg">
+            <h3>Data Analysis with Python</h3>
+            <p>Issued by IBM</p>
+        </div>
+
+        <div class="cert-card" data-category="ibm" data-src="images/datawithr.jpg">
+            <img src="images/datawithr.jpg">
+            <h3>Data Visualization with R</h3>
+            <p>Issued by IBM</p>
+        </div>
+
+        <div class="cert-card" data-category="ibm" data-src="images/devops.jpg">
+            <img src="images/devops.jpg">
+            <h3>DevOps, Agile & Design Thinking</h3>
+            <p> Issued by by IBM</p>
+        </div>
+
+        <div class="cert-card" data-category="Great Learning" data-src="images/AI Application.jpg">
+            <img src="images/AI Application.jpg">
+            <h3>Application of AI</h3>
+            <p>Issued by Great Learning</p>
+        </div>
+
+        <div class="cert-card" data-category="Great Learning" data-src="images/AI Fundamental.jpg">
+            <img src="images/AI Fundamental.jpg">
+            <h3>Fundamental of AI</h3>
+            <p>Issued by Great Learning</p>
+        </div>
+
+        <div class="cert-card" data-category="skillup" data-src="images/DSA.jpg">
+            <img src="images/DSA.jpg">
+            <h3>Data Structures & Algorithms</h3>
+            <p>Issued by SkillUp</p>
+        </div>
+
+    </div>
+
+    <!-- SHOW MORE BUTTON -->
+    <button id="show-certificates">Show more certificates</button>
+
+</section>
+
+<!-- MODAL -->
+<div id="cert-modal" class="modal">
+    <div class="modal-bg" onclick="closeCertModal()"></div>
+    <div class="modal-content">
+        <span class="modal-close" onclick="closeCertModal()">✕</span>
+        <img id="cert-modal-img">
+    </div>
+</div>
+
+
+<!-- CONTACT -->
+    <section id="contact">
+  <h1>Contact</h1>
+
+  <form id="contactForm" action="https://api.web3forms.com/submit" method="POST" style="max-width:500px;margin:auto;">
+
+      <!-- CONTACT -->
+      <input type="hidden" name="access_key" value="518efe00-ceac-4d95-8c88-62a381e3ede4">
+
+      <input type="text" name="name" placeholder="Full Name" required><br><br>
+
+      <input type="email" name="email" placeholder="Email Address" required><br><br>
+
+      <textarea name="message" placeholder="Your Message..." required></textarea><br><br>
+
+      <button type="submit">Send Message</button>
+
+      <p id="contact-status" style="margin-top:10px;font-weight:600;"></p>
+  </form>
+</section>
+
+<!-- Load site script at end of body for reliable DOM access -->
+<script src="script.js"></script>
+
+</body>
+</html>
