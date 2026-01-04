@@ -205,7 +205,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     })();
 
-    <meta name="google-site-verification" content="ZN-sJ8Zj3f_HzLcqqydX64GoxG1rrn5y8lx5hNYP-6g" />
-
 });
+
 
